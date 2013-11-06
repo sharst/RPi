@@ -1,0 +1,3 @@
+SUBSYSTEM==”usb”, ATTR{idVendor}==”0bb4″, MODE=”0666″, GROUP="plugdev"
+#Huawei
+SUBSYSTEM==usb, SYSFS{idVendor}==12d1, MODE=0664, GROUP=plugdev
